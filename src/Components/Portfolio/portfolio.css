@@ -10,12 +10,10 @@ a{
     color: #1BC5EB;
     margin-top: 10px;
 }
+
 .cent-tudo-cont{
     text-align: center;
 }
-
-
-
 
 @media only screen and (max-width:321px){
     .item-portfolio{

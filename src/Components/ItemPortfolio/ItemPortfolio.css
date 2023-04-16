@@ -1,10 +1,10 @@
+
 .item-portfolio{
     
- 
     display: inline-block;
     margin: 30px;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px #1BC5EB;
+    box-shadow: 1px 1px 1px 1px #1BC5EB;
     
 }
 
@@ -14,6 +14,9 @@
     height: 250px;
 }
 
+.item-portfolio h4{
+    color: white;
+}
 
 @media only screen and (max-width:321px){
     .item-portfolio{
@@ -21,7 +24,7 @@
         display: inline-block;
         margin: 5px;
         border-radius: 15px;
-        box-shadow: 2px 2px 2px 2px #1BC5EB;
+        box-shadow: 1px 1px 1px 1px #1ba6c5;
         margin-top: 30px;
     }
  

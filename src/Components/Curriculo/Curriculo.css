@@ -1,7 +1,10 @@
 body{
   margin:0;
-  background-color:#EDEDED;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color:#131522;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  font-size:larger;
 }
 
 .cent-tudo{
@@ -13,13 +16,13 @@ body{
   }
   .cent-tudo h2{
     
-    margin-top: 40px;
+    margin-top: 35px;
   }
   .titulo{
     color: white;
   }
   .sk{
-    margin-top: 40px;
+    margin-top: 35px;
   }
   .item-curriculo{
     background-color:#131522 ;
@@ -29,7 +32,7 @@ body{
     border-radius: 20px;
     color: #1BC5EB;
     margin-top: 40px;
-    box-shadow: 2px 2px 2px 2px #1BC5EB;
+    box-shadow: 1px 1px 1px 1px #1BC5EB;
   }
   .color-curriculo{
     color: #1BC5EB;
@@ -46,9 +49,9 @@ body{
       padding: 10px;
       margin: auto;
       border-radius: 20px;
-      width: 250px;
+      width: 270px;
       color: #1BC5EB;
-      margin-top: 40px;
-      box-shadow: 2px 2px 2px 2px #1BC5EB;
+      margin-top: 20px;
+      box-shadow: 1px 1px 1px 1px #1BC5EB;
     }
   }

@@ -11,7 +11,7 @@ function Curriculo(){
     <div className="cent-tudo">
 
         <div className="item-curriculo">
-            <h2>Formação acadêmica</h2>
+            <h2>Experiência Acadêmica</h2>
         </div>
 
         <h2 className="titulo">{data.experienciaAcademica[0].titulo}</h2>

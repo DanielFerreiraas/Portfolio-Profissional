@@ -2,18 +2,18 @@
     
     "experienciaAcademica":[
         {
-            "titulo":"(Uninassau)",
+            "titulo":"Uninassau",
             "descricao":"Graduando em Análise e desenvolvimento de sistemas"
         }
     ],
 
     "curso":[
         {
-            "nomeOrganizacao": "(Comeia)",
+            "nomeOrganizacao": "Comeia",
             "descricaoCurso": "Comeia Academy"
         },
         {
-            "nomeOrganizacao": "(Oracle)",
+            "nomeOrganizacao": "Oracle",
             "descricaoCurso": "Oracle Academy"
         }
     ],

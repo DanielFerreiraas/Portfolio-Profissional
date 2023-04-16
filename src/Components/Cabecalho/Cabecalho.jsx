@@ -7,7 +7,7 @@ function Cabecalho(){
         <header>
         <img src = {perfil} alt="" />
         <h1>Daniel Ferreira</h1>
-        <h3>Desenvolvedor Web</h3>
+        <h3>Desenvolvedor de Software</h3>
         </header>
     )
 }
