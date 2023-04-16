@@ -6,10 +6,13 @@ import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 
 import portfolio from "./Portfolio.json"
 
-
+import img from "../../image/netbit2.png"
+import img2 from "../../image/webprodutos.png"
+import img3 from "../../image/site-pessoal.png"
 
 function Portfolio() {
 
+    const images = [img,img2,img3]
     
     return (
 
@@ -21,7 +24,7 @@ function Portfolio() {
                 <ItemPortfolio
                     key={index}
                     link={item.link}
-                    image={item.image}
+                    image={images[index]}
                     title={item.title}
                 ></ItemPortfolio>
 

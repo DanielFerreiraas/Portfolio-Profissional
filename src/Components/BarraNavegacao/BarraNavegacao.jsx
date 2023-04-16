@@ -9,7 +9,7 @@ function BarraNavegacao(){
         <ul>
             <li><Link to="/">Currículo</Link></li>
             <li><Link to="/Portfolio">Portfólio</Link></li>
-            <li><Link to="/contato">Contato</Link></li>
+            <li><Link to="/Contato">Contato</Link></li>
         </ul>
         </nav>
     )
