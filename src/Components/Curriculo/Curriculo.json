@@ -1,0 +1,33 @@
+{
+    
+    "experienciaAcademica":[
+        {
+            "titulo":"(Uninassau)",
+            "descricao":"Graduando em Análise e desenvolvimento de sistemas"
+        }
+    ],
+
+    "curso":[
+        {
+            "nomeOrganizacao": "(Comeia)",
+            "descricaoCurso": "Comeia Academy"
+        },
+        {
+            "nomeOrganizacao": "(Oracle)",
+            "descricaoCurso": "Oracle Academy"
+        }
+    ],
+
+    "habilidade":[
+        {
+            "skill" : "Desenvolvedor front-end"
+        },
+        {
+            "skill" : "Desenvolvedor back-end"
+        },
+        {
+            "skill" : "Administrador de SGBD MySQL"
+        }
+    ]
+
+}

@@ -1,0 +1,30 @@
+
+a{
+    color: black;
+    text-decoration: none;
+   
+}
+
+.titulo h1{
+    text-align: center;
+    color: #1BC5EB;
+    margin-top: 10px;
+}
+.cent-tudo-cont{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:321px){
+    .item-portfolio{
+
+        display: inline-block;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px 2px #1BC5EB;
+    }
+ 
+}
+    

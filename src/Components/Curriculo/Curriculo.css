@@ -1,0 +1,54 @@
+body{
+  margin:0;
+  background-color:#EDEDED;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cent-tudo{
+    text-align: center;
+  }
+  
+  h4{
+    color: white;
+  }
+  .cent-tudo h2{
+    
+    margin-top: 40px;
+  }
+  .titulo{
+    color: white;
+  }
+  .sk{
+    margin-top: 40px;
+  }
+  .item-curriculo{
+    background-color:#131522 ;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+    color: #1BC5EB;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px #1BC5EB;
+  }
+  .color-curriculo{
+    color: #1BC5EB;
+  }
+
+  ion-icon{
+    margin-top: 50px;
+    font-size: 64px;
+  }
+  
+  @media only screen and (max-width:500px){
+    .item-curriculo{
+      background-color:#131522 ;
+      padding: 10px;
+      margin: auto;
+      border-radius: 20px;
+      width: 250px;
+      color: #1BC5EB;
+      margin-top: 40px;
+      box-shadow: 2px 2px 2px 2px #1BC5EB;
+    }
+  }

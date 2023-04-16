@@ -1,0 +1,19 @@
+header{
+    background-color: #131522;
+    text-align: center;
+   padding: 25px;
+  }
+  header img {
+    border-radius: 50%;
+    width: 200px;
+    
+  }
+  
+  header h1{
+    color: #1BC5EB;
+  }
+  
+  header h3{
+    color: white;
+    margin-top: -20px;
+  }
