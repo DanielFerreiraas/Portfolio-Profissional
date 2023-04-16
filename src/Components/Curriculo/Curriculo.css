@@ -51,7 +51,12 @@ body{
       border-radius: 20px;
       width: 270px;
       color: #1BC5EB;
-      margin-top: 20px;
+      margin-top: 35px;
       box-shadow: 1px 1px 1px 1px #1BC5EB;
     }
+  }
+
+  .cent-tudo h2{
+    
+    margin-top: 30px;
   }
