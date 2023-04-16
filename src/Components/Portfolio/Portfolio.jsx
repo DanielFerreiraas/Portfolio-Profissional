@@ -2,7 +2,7 @@ import React from "react";
 
 import "./portfolio.css";
 
-import ItemPortfolio from "../itemPortfolio/itemPortfolio";
+import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 
 import portfolio from "./Portfolio.json"
 
