@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Components/Contato/contato.css';
+import './Components/Contato/Contato.css';
 import './Components/Portfolio/portfolio.css'
 
 import BarraNavegacao from './Components/BarraNavegacao/BarraNavegacao';
