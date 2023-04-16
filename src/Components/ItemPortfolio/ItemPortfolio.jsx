@@ -8,7 +8,7 @@ function ItemPortfolio(props){
     
     return(
 
-        <a href={props.link} target="_blank">
+        <a href={props.link}>
                 <div className="item-portfolio">
                     <img src={props.image} alt="" />
                     <h4>{props.title}</h4>
