@@ -1,51 +1,61 @@
-body{
-    margin:0;
-    background-color:#131522;
+body {
+    margin: 0;
+    background-color: #131522;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.contate .conteudo {
+    color: rgb(77, 77, 77);
+    margin-top: 20px;
+}
 
-a{
+a {
     text-decoration: none;
     outline: none;
 }
-ion-icon{
-    color: white;
-    margin-top: -18px;
+
+.color-composto {
+    color: #1BC5EB;
+    display: inline-block;
 }
 
-.url-site{
+.url-site {
     text-align: center;
-    
-    margin-top: 10px;
+    margin-top: 0px;
 }
-.contate{
-    
+
+.url-site h4 {
+    color: rgb(77, 77, 77);
+}
+
+.contate {
     color: white;
     text-align: center;
 }
-.line hr{
+
+.line hr {
     border: 1px solid #1BC5EB;
     width: 85%;
     margin-top: 85px;
-
 }
+
 form {
-    
+    margin-bottom: 40px;
     box-shadow: 1px 1px 1px 1px #1BC5EB;
     width: 400px;
     padding: 20px;
-    margin: 80px auto;
+    margin: 50px auto;
     border-radius: 15px;
     background-color: #131522;
 }
+
 .invalid {
     border: 2px solid red;
 }
 
-.centralizar{
+.centralizar {
     text-align: center;
-    
+
 }
 
 form label {
@@ -53,21 +63,22 @@ form label {
     font-weight: bolder;
 }
 
-form input, textarea {
+form input,
+textarea {
     width: 100%;
     border: none;
     outline: none;
     margin: 10px auto;
-    
+
     border-radius: 10px;
 }
 
-form input{
+form input {
     height: 40px;
 }
 
 
-.button{
+.button {
     text-align: center;
     width: 100%;
     border: none;
@@ -76,7 +87,8 @@ form input{
     font-weight: bolder;
     cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     background-color: #1da1be;
     transition: 0.5s;
 }
@@ -87,7 +99,7 @@ form input{
         width: 70%;
     }
 
-    .item-contato{
+    /* .item-contato{
         background-color:#131522 ;
         padding: 10px;
         margin: auto;
@@ -95,7 +107,5 @@ form input{
         border-radius: 20px;
         box-shadow: 2px 2px 2px 2px #1BC5EB;
         margin-top: 40px;
-    }
+    } */
 }
-
-    

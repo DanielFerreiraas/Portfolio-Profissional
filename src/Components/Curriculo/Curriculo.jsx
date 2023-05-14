@@ -1,51 +1,60 @@
 import React from "react";
+
 import "../Curriculo/Curriculo.css";
-import data from "../Curriculo/Curriculo.json"
 
+function Curriculo(props){
 
-function Curriculo(){
+    const {certificacoes, experienciaAcademica, experienciaProfissional} = props.curriculo;
 
+    if(!certificacoes || !experienciaAcademica || !experienciaProfissional){
+        return <p>Carregando...</p>
+        }
     return (
         <>
+        {/*
+        <div className="sec3">
+            <h2><div className="color-composto">Habilidades</div></h2>
+            <h3 className="subtitle">Linguagens e ferramentas de programação</h3>
+            <h3 className="subtitle">Fluxo de trabalho</h3>
+            <h5 className="conteudo">Front-end</h5>
+            <h5 className="conteudo">back-end</h5>
+            <h5 className="conteudo">full-stack developer</h5>
+            <h5 className="conteudo">administrador de banco de dados com Mysql</h5>
+        </div> 
+        */}
 
-    <div className="cent-tudo">
 
-        <div className="item-curriculo">
-            <h2>Experiência Acadêmica</h2>
+        <div className="sec1">
+        <h2>Experiência <div className="color-composto">Acadêmica</div></h2>
+        {experienciaAcademica.map((item, index) => (
+            <div key={index}>
+                <h3 className="subtitle">{item.instituicao}</h3>
+                <h3 className="conteudo">{item.titulo} - {item.anoInicio}/{item.anoFim}</h3>
+            </div>
+        ))}
         </div>
 
-        <h2 className="titulo">{data.experienciaAcademica[0].titulo}</h2>
-        <h4>{data.experienciaAcademica[0].descricao}</h4>
-        
-        <div className="item-curriculo">
-            <h2>Cursos</h2>
-        </div>
-       
-        <h2 className="titulo">{data.curso[0].nomeOrganizacao}</h2>
-            <h4>{data.curso[0].descricaoCurso}</h4>
+        <div className="sec2">
+            <h2>Experiência <div className="color-composto">Profissional</div></h2>
+        {experienciaProfissional.map((item, index) => (
+            <div key={index}>
+                <h3 className="subtitle">{item.instituicao}</h3>
+                <h3 className="conteudo">{item.titulo} - {item.anoInicio}/{item.anoFim}</h3>
+            </div>
+        ))}
+        </div> 
 
-        <h2 className="titulo">{data.curso[1].nomeOrganizacao}</h2>
-            <h4>{data.curso[1].descricaoCurso}</h4>
-
-        <div className="item-curriculo">
-            <h2>Habilidades</h2>
-        </div>
-
-        <div className="sk">
-
-            {data.habilidade.map((item, index) => (
-                <h4 key={index}>{item.skill}</h4>
-            ))}
-            
-        </div>
-        
-        {/* <div className="item-curriculo">
-            <h2>Dev Tools</h2>
-        </div> */}
-
-    </div>
-  
+        <div className="sec3">
+            <h2>Certificações</h2>
+        {certificacoes.map((item, index) => (
+            <div key={index}>
+                <h3 className="subtitle">{item.instituicao}</h3>
+                <h3 className="conteudo">{item.titulo} - {item.anoInicio}/{item.anoFim}</h3>
+            </div>
+        ))}
+        </div> 
     </>
+  
     )
 }
 

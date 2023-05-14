@@ -41,31 +41,13 @@ function Contato(){
     return (
     
     <>
-        <div className="centralizar">
-            
-        {ContatoDate.map(
-
-                (item, id) => 
-                <ItemContato
-                    key={id}
-                    link={item.link}
-                    title={item.title}
-                ></ItemContato>
-
-            )}
-
-
-        </div>
-       
-        <div className="line">
-            <hr />
-        </div>
-        
-        <form onSubmit={enviarFormulario}>
-
             <div className="contate">
-                <h1>Contate-me</h1>
+                <h2 className="conteudo">Enviar uma <div className="color-composto">mensagem</div></h2>
             </div>
+
+                <hr />
+
+        <form onSubmit={enviarFormulario}>
 
             <label htmlFor="input-nome">Nome</label>
             <input 
@@ -118,6 +100,27 @@ function Contato(){
             <input type="submit" value="ENVIAR" className="button"/>
 
         </form>
+
+        
+            <hr />
+        
+
+        <div className="centralizar">
+            
+            {ContatoDate.map(
+    
+                    (item, id) => 
+                    <ItemContato
+                        key={id}
+                        link={item.link}
+                        title={item.title}
+                    ></ItemContato>
+    
+                )}
+    
+    
+            </div>
+           
 
         <div className="url-site">
             <h4>www.daniel.ferreiraas.github.io</h4>

@@ -1,14 +1,18 @@
 import React from "react";
-import perfil from "../../image/daniel-img.jpg"
+
 import "./Cabecalho.css"
 
-function Cabecalho(){
+function Cabecalho(props){
+    const {nome, foto, cargo} = props.informacoes
     return(
-        <header>
-        <img src = {perfil} alt="" />
-        <h1>Daniel Ferreira</h1>
-        <h3>Desenvolvedor de Software</h3>
-        </header>
+        <>
+            <header>
+            {/* <div className="navbar"><h1>{nome}</h1></div> */}
+            <img src = {foto} alt="" />
+            <h1>{nome}</h1>
+            <h3>{cargo}</h3>
+            </header>
+        </>
     )
 }
 

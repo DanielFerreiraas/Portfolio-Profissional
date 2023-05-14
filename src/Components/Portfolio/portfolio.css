@@ -5,10 +5,20 @@ a{
    
 }
 
-.titulo h1{
+.cent-tudo-cont .conteudo {
+    color: rgb(77, 77, 77);
+    margin-top: 20px;
+}
+
+.title{
     text-align: center;
     color: #1BC5EB;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.color-composto {
+    color: #1BC5EB;
+    display: inline-block;
 }
 
 .cent-tudo-cont{

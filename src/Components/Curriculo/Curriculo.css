@@ -1,62 +1,94 @@
-body{
-  margin:0;
-  background-color:#131522;
-  font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  background-color: #EDEDED;
+  font-family: 'Nunito Sans', sem serifa;
+  text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
-  
-  font-size:larger;
 }
 
-.cent-tudo{
-    text-align: center;
-  }
-  
-  h4{
-    color: white;
-  }
-  .cent-tudo h2{
-    
-    margin-top: 35px;
-  }
-  .titulo{
-    color: white;
-  }
-  .sk{
-    margin-top: 35px;
-  }
-  .item-curriculo{
-    background-color:#131522 ;
-    padding: 10px;
-    margin: auto;
-    width: 70%;
-    border-radius: 20px;
-    color: #1BC5EB;
-    margin-top: 40px;
-    box-shadow: 1px 1px 1px 1px #1BC5EB;
-  }
-  .color-curriculo{
-    color: #1BC5EB;
+.sec1 {
+  background-color: #EDEDED;
+  height: 280px;
+  padding-left: 70px;
+  color: rgb(31, 30, 30);
+}
+
+.sec2 {
+  background-color: #dfdfdf;
+  height: 370px;
+  flex-direction: column;
+  display: flex;
+  padding-left: 70px;
+  color: rgb(31, 30, 30);
+}
+
+.sec3 {
+  background-color: #EDEDED;
+  height: 250px;
+  padding-left: 70px;
+}
+
+.subtitle {
+  margin-top: 50px;
+  color: rgb(31, 30, 30);
+}
+
+.conteudo {
+  color: rgb(77, 77, 77);
+  margin-top: -15px;
+}
+
+.color-composto{
+  color:#1BC5EB;
+  display: inline-block;
+}
+
+h4 {
+  color: white;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+ion-icon {
+  margin-top: 50px;
+  font-size: 64px;
+}
+
+@media only screen and (max-width:500px) {
+  .sec1 {
+    background-color: #EDEDED;
+    height: 260px;
+    padding-left: 10px;
+    justify-content: start;
+    margin-bottom: 70px;
   }
 
-  ion-icon{
-    margin-top: 50px;
-    font-size: 64px;
-  }
-  
-  @media only screen and (max-width:500px){
-    .item-curriculo{
-      background-color:#131522 ;
-      padding: 10px;
-      margin: auto;
-      border-radius: 20px;
-      width: 270px;
-      color: #1BC5EB;
-      margin-top: 35px;
-      box-shadow: 1px 1px 1px 1px #1BC5EB;
-    }
+  .color-composto{
+    color:#1BC5EB;
+    display: inline-block;
+    margin-left: 0px;
   }
 
-  .cent-tudo h2{
-    
-    margin-top: 30px;
+  .sec2 {
+    background-color: #dfdfdf;
+    height: 370px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 10px;
+    color: rgb(31, 30, 30);
   }
+
+  .sec3 {
+    background-color: #EDEDED;
+    height: 250px;
+    padding-left: 10px;
+  }
+
+}
+
+.cent-tudo h2 {
+
+  margin-top: 30px;
+}

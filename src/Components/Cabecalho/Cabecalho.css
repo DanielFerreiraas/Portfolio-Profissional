@@ -1,12 +1,17 @@
 header{
     background-color: #131522;
     text-align: center;
-   padding: 25px;
+    padding: 30px;
   }
+
+  .navbar{
+    background-color: #212438;
+    width: 100%;
+  }
+
   header img {
     border-radius: 50%;
-    width: 200px;
-    
+    width: 150px;
   }
   
   header h1{
@@ -15,5 +20,5 @@ header{
   
   header h3{
     color: white;
-    margin-top: -20px;
+    margin-top: -25px;
   }

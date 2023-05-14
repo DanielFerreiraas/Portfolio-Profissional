@@ -4,7 +4,7 @@ import "./Rodape.css"
 function Rodape(){
     return(
         <footer>
-            &copy; 2023 Daniel Ferreira | Todos os direitos reservados
+            &copy; 2023 Dan Ferreira | Todos os direitos reservados
         </footer>
     )
 }
