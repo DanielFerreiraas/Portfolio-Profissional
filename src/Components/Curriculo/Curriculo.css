@@ -51,11 +51,6 @@ h2 {
   margin-top: 45px;
 }
 
-ion-icon {
-  margin-top: 50px;
-  font-size: 64px;
-}
-
 @media only screen and (max-width:500px) {
   .sec1 {
     background-color: #EDEDED;

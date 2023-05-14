@@ -60,15 +60,16 @@ function App() {
     
     <BrowserRouter>
 
-    <BarraNavegacao></BarraNavegacao>
+      <BarraNavegacao></BarraNavegacao>
 
-      <Routes>
-        
-          <Route index element={<Curriculo curriculo={curriculo}/>} />
-          <Route path="Portfolio" element={<Portfolio portfolio={portfolio}/>} />
-          <Route path="contato" element={<Contato />} />
+        <Routes>
           
-      </Routes>
+            <Route index element={<Curriculo curriculo={curriculo}/>} />
+            <Route path="Portfolio" element={<Portfolio portfolio={portfolio}/>} />
+            <Route path="contato" element={<Contato />} />
+            
+        </Routes>
+        
       </BrowserRouter>
    
   <Rodape></Rodape>

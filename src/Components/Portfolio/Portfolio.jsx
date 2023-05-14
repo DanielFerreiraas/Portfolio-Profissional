@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./portfolio.css";
-
 import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
+
+import "./portfolio.css";
 
 function Portfolio({ portfolio }) {
 
