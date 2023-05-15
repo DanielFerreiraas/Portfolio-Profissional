@@ -12,7 +12,7 @@ function Portfolio({ portfolio }) {
 
         <div className="cent-tudo-cont">
 
-            <h2 className="conteudo">Meus <div className="color-composto">Portfólios</div></h2>
+            <h2 className="conteudo">Meu <div className="color-composto">Portfólio</div></h2>
 
             <hr />
 
