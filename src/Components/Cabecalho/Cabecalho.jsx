@@ -3,7 +3,13 @@ import React from "react";
 import "./Cabecalho.css"
 
 function Cabecalho(props){
-    const {nome, foto, cargo} = props.informacoes
+    const {nome, foto, cargo} = props.informacoes;
+
+    if(!nome || !foto || !cargo){
+        return(
+            <></>
+        ) 
+        }
     return(
         <>
             <header>

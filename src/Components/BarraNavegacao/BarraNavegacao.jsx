@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import "./BarraNavegacao.css";
 
 function BarraNavegacao(){
-
     return(
         <nav>
             <ul>
