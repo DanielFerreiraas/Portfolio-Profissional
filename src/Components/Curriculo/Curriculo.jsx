@@ -29,7 +29,7 @@ function Curriculo(props) {
                 {certificacoes.map((item, index) => (
                     <div key={index}>
                         <h3 className="subtitle">{item.instituicao}</h3>
-                        <h3 className="conteudo">{item.titulo} - {item.anoInicio}/{item.anoFim}</h3>
+                        <h3 className="conteudo">{item.titulo} - {item.anoInicio}{item.anoFim}</h3>
                     </div>
                 ))}
             </div>
@@ -39,7 +39,7 @@ function Curriculo(props) {
                 {experienciaProfissional.map((item, index) => (
                     <div key={index}>
                         <h3 className="subtitle">{item.instituicao}</h3>
-                        <h3 className="conteudo">{item.titulo} - {item.anoInicio}/{item.anoFim}</h3>
+                        <h3 className="conteudo">{item.titulo} - {item.anoInicio}{item.anoFim}</h3>
                     </div>
                 ))}
             </div>
