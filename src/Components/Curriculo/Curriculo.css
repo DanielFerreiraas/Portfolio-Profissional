@@ -8,14 +8,14 @@ body {
 
 .sec1 {
   background-color: #EDEDED;
-  height: 280px;
+  min-height: 280px;
   padding-left: 70px;
   color: rgb(31, 30, 30);
 }
 
 .sec2 {
   background-color: #dfdfdf;
-  height: 370px;
+  min-height: 370px;
   flex-direction: column;
   display: flex;
   padding-left: 70px;
@@ -24,7 +24,7 @@ body {
 
 .sec3 {
   background-color: #EDEDED;
-  height: 250px;
+  min-height: 250px;
   padding-left: 70px;
 }
 
@@ -81,9 +81,4 @@ h2 {
     padding-left: 10px;
   }
 
-}
-
-.cent-tudo h2 {
-
-  margin-top: 30px;
 }
